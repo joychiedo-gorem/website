@@ -1,0 +1,173 @@
+/* CONTACT PAGE STYLES */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+  background-color: #E6DAF8;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+}
+
+.logo img {
+  height: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a.active,
+nav a:hover {
+  color: #b22222;
+}
+
+/* Contact Header Section */
+.contact-header {
+  text-align: center;
+  padding: 40px 20px 20px;
+  background-color: #FDF6EC;
+  color: #222;
+}
+
+.contact-header h1 {
+  margin-bottom: 10px;
+  color: #b22222;
+}
+
+/* Contact Form Styles */
+#contact-form-section {
+  background-color: #fff;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #b22222;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #991f1f;
+}
+
+/* Direct Contact Section */
+#direct-contact {
+  background-color: #FDF6EC;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+#direct-contact h2 {
+  color: #b22222;
+  margin-bottom: 15px;
+}
+
+#direct-contact ul {
+  padding-left: 20px;
+}
+
+#direct-contact ul li {
+  margin-bottom: 10px;
+}
+
+/* Map Section */
+#map-placeholder {
+  background-color: #fff;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+#map-placeholder h2 {
+  color: #b22222;
+  margin-bottom: 20px;
+}
+
+#map {
+  height: 300px;
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #ffa500;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+footer ul li {
+  margin: 8px 0;
+}
+
+.footer-content p {
+  margin-top: 10px;
+}

@@ -1,0 +1,140 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3e8ff;
+    color: #1a1a1a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffc107;
+}
+
+/* Sermons Page */
+.sermon-section {
+    padding: 2rem;
+    background: linear-gradient(to bottom, #1a1a1a, #000);
+}
+
+.sermon-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #ffc107;
+}
+
+.sermon-card {
+    background-color: #111;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.3);
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.sermon-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(255, 204, 0, 0.5);
+}
+
+.sermon-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.sermon-meta {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-bottom: 1rem;
+}
+
+.sermon-preacher {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.sermon-media {
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 10px;
+    background-color: #222;
+}
+
+.sermon-video {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+    margin: 1rem auto;
+    display: block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Filter Buttons */
+.sermon-filters {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.sermon-filters button {
+    background-color: #333;
+    color: #ffc107;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    margin: 0.3rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sermon-filters button:hover,
+.sermon-filters button.active {
+    background-color: #ffc107;
+    color: #000;
+}
+
+/* Events Section */
+.events {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.event-highlight {
+    max-width: 600px; /* updated */
+    margin: 0 auto;
+}
+
+.event-highlight h3 {
+    font-size: 1.5rem;
+    color: #c08800;
+}
+
+.event-highlight ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.event-highlight ul li {
+    margin: 8px 0;
+    font-size: 1rem;
+}
+
+/* ✅ Fix image size in Events */
+.event-highlight img {
+    width: 100%;
+    max-width: 250x;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto 20px auto;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    object-fit: cover;
+}
+.logo-img {
+  max-width: 200px;  /* 👈 You can change this value to 100px or 80px as you like */
+  height: auto;
+  display: block;
+}

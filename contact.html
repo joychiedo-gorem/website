@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | GOREM Life Embassy</title>
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+<header>
+  <div class="logo">
+    <img src="images/gorem-logo.png" alt="GOREM Logo" class="logo-img"/>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="sermons.html">Sermons</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+  <li><a href="donation.html">Support</a></li>
+           <li><a href="newcomer.html">Newcomer</a></li>
+</ul>
+  </nav>
+</header>
+
+<section class="contact-header">
+  <h1>Contact Us</h1>
+  <p>Let’s Get You to the Right Place.</p>
+  <p>Use the form below or contact us directly — each request goes straight to the right team.</p>
+</section>
+
+<section id="contact-form-section">
+  <form id="contactForm" action="https://formsubmit.co/contact@goremworldwide.com" method="POST">
+    <!-- Hidden FormSubmit Inputs -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" />
+
+    <label for="reason">Select Reason:</label>
+    <select id="reason" name="reason" required>
+      <option value="">-- Please Select --</option>
+      <option value="prayer">Prayer</option>
+      <option value="family">Family/Cell Fellowship</option>
+      <option value="welfare">Welfare/Support</option>
+      <option value="hospitality">Hospitality</option>
+    </select>
+
+    <div id="appointment-fields" style="display: none;">
+      <label for="appointment-date">Preferred Date:</label>
+      <input type="date" id="appointment-date" name="appointment_date" />
+
+      <label for="appointment-reason">Reason for Appointment:</label>
+      <textarea id="appointment-reason" name="appointment_reason"></textarea>
+    </div>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+  <p id="response" style="margin-top: 15px; color: green;"></p>
+</section>
+
+<section id="direct-contact">
+  <h2>Reach Us Directly</h2>
+  <p><strong>🏠 Church Address:</strong><br />
+  Life Embassy, 11 Adesheke Street, Iyana-Oworo, Off Olopomeji Bus-Stop, Lagos.</p>
+
+  <p><strong>📞 Prayer Line:</strong> +234 803 XXX XXXX<br />
+  <strong>📞 Admin Line:</strong> +234 901 XXX XXXX</p>
+
+  <p><strong>📧 Departmental Emails:</strong></p>
+  <ul>
+    <li>Prayer: <a href="mailto:prayerband@goremworldwide.com">prayerband@goremworldwide.com</a></li>
+    <li>Family Ministry: <a href="mailto:ministerchukwudi@goremworldwide.com">ministerchukwudi@goremworldwide.com</a></li>
+    <li>Welfare/Support: <a href="mailto:support@goremworldwide.com">support@goremworldwide.com</a></li>
+    <li>Hospitality: <a href="mailto:glory.adeoti@goremworldwide.com">glory.adeoti@goremworldwide.com</a></li>
+  </ul>
+</section>
+
+<section id="map-placeholder">
+  <h2>Find Us</h2>
+  <div id="map">
+    <!-- Google Maps Embed goes here later -->
+  </div>
+</section>
+
+<footer>
+  <div class="footer-content">
+    <h3>5 Ways to Connect</h3>
+    <ul>
+      <li>📘 <strong>Facebook:</strong> <a href="https://www.facebook.com/share/174r1hta8b/?mibextid=wwXIfr" target="_blank">We love Rev Dr Prayerson Otuomachi</a></li>
+      <li>📲 <strong>Telegram:</strong> <a href="https://t.me/+3mPviqZrDvtiODA0" target="_blank">Rev Dr Prayerson Otuomachi Messages</a></li>
+      <li>📺 <strong>YouTube:</strong> <a href="https://youtube.com/@life_embassy_tv?si=ef_vtMXcbhlNCF47" target="_blank">Life Embassy TV</a></li>
+      <li>📸 <strong>Instagram:</strong> <a href="https://www.instagram.com/thelifeembassy?igsh=anlnMnc3ZnJhN2hp" target="_blank">THELIFEEMBASSY</a></li>
+      <li>🐦 <strong>X (Twitter):</strong> <a href="https://x.com/thelifeembassy?s=21" target="_blank">@thelifeembassy</a></li>
+    </ul>
+    <p><strong>📍 Address:</strong> No. 11 Adesheke Street, Iyana-Oworo, Off Olopomeji Bus-Stop, Lagos.</p>
+    <p>©️ 2025 GOREM - Gospel of Redemption Evangelical Mission | Life Embassy</p>
+  </div>
+</footer>
+
+<script src="contact.js"></script>
+</body>
+</html>

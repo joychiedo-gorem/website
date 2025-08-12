@@ -1,0 +1,207 @@
+/* Reset and base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fffdfb;
+  color: #222;
+  line-height: 1.6;
+  font-size: 16px;
+  padding: 0;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #c0392b;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  padding: 20px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.logo-img {
+  height: 55px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a {
+  font-weight: 600;
+  color: #333;
+  transition: all 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #e74c3c;
+}
+
+/* Hero Section */
+.donation-hero {
+  background: linear-gradient(135deg, #e74c3c, #f39c12);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.donation-hero h1 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+}
+
+.donation-hero p {
+  font-size: 1.2em;
+}
+
+/* Why Give */
+.why-give {
+  padding: 60px 10%;
+  text-align: center;
+  background-color: #fefaf5;
+}
+
+.why-give h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #c0392b;
+}
+
+.why-give p {
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+/* Donation Methods */
+.donation-methods {
+  padding: 60px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.bank-details, .form-giving {
+  flex: 1 1 45%;
+  min-width: 300px;
+}
+
+.bank-details h3,
+.form-giving h3 {
+  font-size: 1.5em;
+  color: #c0392b;
+  margin-bottom: 15px;
+}
+
+.bank-details p {
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+input, select, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #e67e22;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+/* Declaration Section */
+.giving-declaration {
+  padding: 60px 10%;
+  text-align: center;
+  background-color: #fef3eb;
+}
+
+.giving-declaration h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #c0392b;
+}
+
+.giving-declaration p {
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 25px 10%;
+  font-size: 0.95em;
+}
+
+.footer-content p {
+  margin: 6px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .donation-methods {
+    flex-direction: column;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .donation-hero h1 {
+    font-size: 2em;
+  }
+}
