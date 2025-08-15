@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.goremworldwide.com/sitemap.xml
