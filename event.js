@@ -3,11 +3,15 @@ document.addEventListener("DOMContentLoaded", () => {
   countdownBox.className = "countdown-box";
   document.querySelector(".events").prepend(countdownBox);
 
-  // Define all event dates
+  // Updated event dates
   const sessions = [
-    { label: "🔥 Thursday Morning", date: new Date("2025-08-21T09:00:00") },
-    { label: "🔥 Saturday Evening", date: new Date("2025-08-23T17:00:00") },
-    { label: "🔥 Sunday Morning", date: new Date("2025-08-24T07:00:00") },
+    { label: "🔥 Thursday Morning", date: new Date("2025-08-28T09:00:00") },
+    { label: "🔥 Thursday Evening", date: new Date("2025-08-28T17:00:00") },
+    { label: "🔥 Friday Morning", date: new Date("2025-08-29T09:00:00") },
+    { label: "🔥 Friday Evening (POWER NIGHT)", date: new Date("2025-08-29T21:00:00") },
+    { label: "🔥 Saturday Morning", date: new Date("2025-08-30T09:00:00") },
+    { label: "🔥 Saturday Evening", date: new Date("2025-08-30T17:00:00") },
+    { label: "🔥 Sunday Morning", date: new Date("2025-08-31T07:00:00") },
   ];
 
   function getNextSession() {
@@ -42,7 +46,3 @@ document.addEventListener("DOMContentLoaded", () => {
   setInterval(updateCountdown, 1000);
   updateCountdown();
 });
-
-
-
-
